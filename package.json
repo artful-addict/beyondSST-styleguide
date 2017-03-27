@@ -1,35 +1,31 @@
 {
-  "name": "beyondsst-styleguide",
+  "name": "rwd-starter-kit",
   "version": "1.0.0",
-  "description": "CSS Styleguide for BeyondSST.",
+  "description": "Web design starter kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artful-addict/beyondSST-styleguide.git"
+    "url": "git+https://github.com/artful-addict/rwd-starter-kit.git"
   },
-  "keywords": [
-    "styleguide",
-    "css",
-    "sass",
-    "style",
-    "guide",
-    "beyondsst",
-    "sst",
-    "responsive",
-    "web",
-    "design",
-    "rwd"
-  ],
   "author": "Kevin Akins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artful-addict/beyondSST-styleguide/issues"
+    "url": "https://github.com/artful-addict/rwd-starter-kit/issues"
   },
-  "homepage": "https://github.com/artful-addict/beyondSST-styleguide#readme",
+  "homepage": "https://github.com/artful-addict/rwd-starter-kit#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.0",
+    "jquery": "^3.2.0"
   }
 }
